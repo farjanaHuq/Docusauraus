@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            This is BitusLabs Documentation Project!
+            BitusLabs Documentation Site For Everyone
           </Link>
         </div>
       </div>

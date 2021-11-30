@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Intro
 
-This is a BitusLabs documentation site.
+This is a BitusLabs documentation site. 
 
 ## Getting Started
 

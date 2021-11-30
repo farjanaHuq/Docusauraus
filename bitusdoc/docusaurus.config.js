@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BitusLabs',
-  tagline: 'A good documentation is a powerful tool!',
+  tagline: 'Documentation is a powerful tool!',
   url: 'https://localhost:3000/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -46,7 +46,7 @@ const config = {
         title: 'BitusLabs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [
           {
