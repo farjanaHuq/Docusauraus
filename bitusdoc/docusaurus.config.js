@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -38,22 +38,21 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'BitusLabs',
+        title: 'MappedSwap',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.jpg',
+          src: 'img/MappedSwap.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -61,6 +60,13 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Community',
+          },
+
         ],
       },
       footer: {
@@ -92,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Trisha@BitusLabs.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BitusLabs. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

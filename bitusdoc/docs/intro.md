@@ -2,34 +2,23 @@
 sidebar_position: 1
 ---
 
-# Intro
+# MappedSwaped Protocol
 
-This is a BitusLabs documentation site. 
+> Get 10x funding by trading on the most funded decentralised crypto trading protocol. 
 
-## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
 ```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
+Introduction to MappedSwap
 ```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+```
+How does MappedSwap Work?
+```
+```
+What are Mapped Tokens?
+```
+```
+How to Create an Account?
+```
+```
+How to do Funding-Trading?
+```
