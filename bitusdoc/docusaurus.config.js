@@ -1,8 +1,11 @@
 // @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
+//npm install --save-dev mini-css-extract-plugin [after installing this plugin I was able to add stylesheets object]
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -12,19 +15,30 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/MappedSwap.png',
   organizationName: 'BitusLabs', // Usually your GitHub org/user name.
   projectName: 'Docusaurus', // Usually your repo name.
-
+  stylesheets: [
+    {
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
+      integrity: "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
+      crossorigin: "anonymous",
+      type: 'text/css',
+    },
+  ],
+  
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      // /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/farjanaHuq/Docusauraus.git',
+          // editUrl: 'https://github.com/farjanaHuq/Docusauraus.git',
+       
+          remarkPlugins: [math],
+          rehypePlugins: [katex]
         },
         blog: {
           showReadingTime: true,
@@ -38,6 +52,7 @@ const config = {
       }),
     ],
   ],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -47,6 +62,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/MappedSwap.png',
           href: 'https://www.mappedswap.io/'
+       
         },
         items: [
           {
@@ -99,13 +115,14 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BitusLabs. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MappedSwap. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    }),  
+
 };
 
 module.exports = config;

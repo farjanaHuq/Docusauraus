@@ -9,7 +9,7 @@
  Create as many sidebars as you want.
  */
 
-// @ts-check
+// @ts-nocheck
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -22,7 +22,7 @@ const sidebars = {
   //   {
   //     type: 'category',
   //     label: 'Tutorial',
-  //     items: ['hello'],
+  //     items: ['CreateAccount', 'IntroductionToMappedSwap', 'HowToDoFundingTrading',]
   //   },
   // ],
 
