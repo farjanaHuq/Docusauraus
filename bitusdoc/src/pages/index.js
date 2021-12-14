@@ -16,8 +16,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            BitusLabs Documentation Site For Everyone
+            to="https://www.mappedswap.io/">
+            MappedSwap Protocol
           </Link>
         </div>
       </div>

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BitusLabs',
+  title: 'MappedSwap',
   tagline: 'Documentation is a powerful tool!',
   url: 'https://localhost:3000/',
   baseUrl: '/',
@@ -46,6 +46,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/MappedSwap.png',
+          href: 'https://www.mappedswap.io/'
         },
         items: [
           {
@@ -76,8 +77,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'MappedSwap',
+                to: 'https://www.mappedswap.io/',
               },
             ],
           },
