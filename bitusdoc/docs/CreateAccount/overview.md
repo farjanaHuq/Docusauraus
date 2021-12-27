@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 ---
-# How to Create an Account?
+# 📔 Overview
 
 5 steps to start trading:
 

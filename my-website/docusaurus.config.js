@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const DefaultLocale = 'en';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -24,7 +25,14 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/farjanaHuq/Docusauraus.git',
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            // Link to Crowdin for French docs
+            if (locale !== DefaultLocale) {
+              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+            }
+            // Link to Github for English docs
+            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,
@@ -44,6 +52,7 @@ const config = {
     ({
       navbar: {
         title: 'BitusLabs',
+        
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -61,6 +70,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       footer: {
