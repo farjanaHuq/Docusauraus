@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# What Are The Mapped Tokens
+# 📊 What Are The Mapped Tokens
 
 Mapped Tokens are synthetic asset of MappedSwap, which include:
 
