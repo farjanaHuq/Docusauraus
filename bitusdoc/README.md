@@ -31,3 +31,33 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+:::note
+
+We could add this styling inside our documentation.
+
+:::
+
+:::tip
+
+We could add this styling inside our documentation.
+
+:::
+
+:::info
+
+We could add this styling inside our documentation.
+
+:::
+
+:::caution
+
+We could add this styling inside our documentation.
+
+:::
+
+:::danger
+We could add this styling inside our documentation.
+
+:::

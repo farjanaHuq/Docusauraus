@@ -71,6 +71,10 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/farjanaHuq/Docusauraus.git',
@@ -120,6 +124,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'fr'],
       },
     }),  
 

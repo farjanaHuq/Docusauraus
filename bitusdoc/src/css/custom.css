@@ -56,9 +56,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-weight: 500;
   padding-top: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal) 1.25rem;
 }
-.menu__link--active{
+/* .menu__link--active{
   color:#09d0ffd0;
-}
+} */
 
 
 
