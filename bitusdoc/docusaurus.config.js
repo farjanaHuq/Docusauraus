@@ -17,7 +17,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/MappedSwap.png',
   organizationName: 'BitusLabs', // Usually your GitHub org/user name.
-  projectName: 'Docusaurus', // Usually your repo name.
+  projectName: 'MappedSwap Documentation', // Usually your repo name.
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
