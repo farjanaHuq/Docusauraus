@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-
+import Translate from '@docusaurus/Translate';
 
 
 function HomepageHeader() {
@@ -37,6 +37,11 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <h1 style={{margin: 20}}>
+        <Translate description="The homepage main heading">
+          Welcome to my Docusaurus translated site!
+        </Translate>
+      </h1>
     </Layout>
   );
 }
