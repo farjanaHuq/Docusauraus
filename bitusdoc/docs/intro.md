@@ -6,21 +6,24 @@ sidebar_position: 1
 
 #### Get 10x funding by trading on the most funded decentralised crypto trading protocol. 
 
-:::info Things you will learn here
+`` Things you will learn here ``
 
-
-#### [Introduction to MappedSwap](IntroductionToMappedSwap.md)
-
-#### [How does MappedSwap Work?](HowDoesMappedSwapWork.mdx)
-
-#### [What are Mapped Tokens?](WhatAreTheMappedTokens.md)
-
-#### [How to Create an Account?](CreateAccount/overview.md)
-
-#### [How to do Funding-Trading?](HowToDoFundingTrading/FundingQuota.md)
+:::tip Introduction to MappedSwap
+#### [Learn here](IntroductionToMappedSwap.md)
+:::
+:::tip How does MappedSwap Work?
+#### [Learn here](HowDoesMappedSwapWork.mdx)
+:::
+:::tip What are Mapped Tokens?
+#### [Learn here](WhatAreTheMappedTokens.md)
+:::
+:::tip How to Create an Account?
+#### [Learn here](CreateAccount/overview.md)
 :::
 
-
+:::tip How to do Funding-Trading?
+#### [Learn here](HowToDoFundingTrading/FundingQuota.md)
+:::
 
 
 

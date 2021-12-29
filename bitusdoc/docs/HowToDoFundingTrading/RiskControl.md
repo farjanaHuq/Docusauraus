@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Risk Control
+# 🗝️ Risk Control
 
 ### Risk Level
 The calculation of Risk Level is: 

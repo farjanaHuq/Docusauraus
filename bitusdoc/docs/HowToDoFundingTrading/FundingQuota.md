@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Funding Quota
+title: 💳 Funding Quota
 ---
 ### Calculate Funding Quota
 

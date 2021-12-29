@@ -1,7 +1,8 @@
 ---
 sidebar_position: 4
+title: 📝 Calculation of Interest Rates
 ---
-# Calculation of Interest Rates
+# 📝 Calculation of Interest Rates
 
 ### Calculation rules: 
 Interest is counted on the hourly basis.

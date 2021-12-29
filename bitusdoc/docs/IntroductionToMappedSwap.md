@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# 📍 Introduction to MappedSwap
+# 🖋️ Introduction to MappedSwap
 
 MappedSwap Protocol is a Decentralized Exchange (DEX) protocol, which is based on the *[Eurus Blockchain (Eurus Network)](https://www.eurus.network/en/)* and aims to facilitate transactions between cryptocurrencies.
 

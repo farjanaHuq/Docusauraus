@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
-# 📔 Funding-Trading
+# 📥 Funding-Trading
 
 ### 5 Steps to Start Trading
 

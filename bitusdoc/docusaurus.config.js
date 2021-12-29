@@ -61,7 +61,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/MappedSwap.png',
-          href: 'https://www.mappedswap.io/'
+          href: 'https://localhost:3000/'
        
         },
         items: [

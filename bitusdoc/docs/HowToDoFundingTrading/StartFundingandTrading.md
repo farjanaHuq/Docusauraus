@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 ---
-# Start Funding and Trading
+# 💰 Start Funding and Trading
 
 ### Principle of Funding-Trading
 Before start to do Funding-Trading, MappedSwap Protocol will use your deposited principal to trade first. Once the deposited principal is used up, the transaction hereafter will be under Funding-Trading mode via using your Funding Quota.
